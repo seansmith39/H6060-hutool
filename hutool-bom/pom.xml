@@ -17,6 +17,25 @@
 	<description>提供丰富的Java工具方法，此模块为Hutool所有模块汇总，最终形式为拆分开的多个jar包，可以通过exclude方式排除不需要的模块</description>
 	<url>https://github.com/looly/hutool</url>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.7</version>
+				<executions>
+					<execution>
+						<id>jacoco-report-aggregate</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>report-aggregate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
