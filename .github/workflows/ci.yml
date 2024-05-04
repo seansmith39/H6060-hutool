@@ -71,6 +71,7 @@ jobs:
       java-distribution: adopt
       mvn-build-artifact: maven-build
       snyk-sarif-enabled: false
+      eclipse-steady-report-enabled: false
 
   run_sast_scanning:
     needs: [ build_application ]
