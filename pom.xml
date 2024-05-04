@@ -177,7 +177,7 @@
 			<properties>
 				<vulas.version>3.2.5</vulas.version>
 				<vulas.shared.backend.serviceUrl>http://steady.b00158319.com:8033/backend/</vulas.shared.backend.serviceUrl>
-				<vulas.core.space.token>39414620282F14646F7F56CE124DB626</vulas.core.space.token>
+				<vulas.core.space.token>2CEC3F03E68A2599EC056B5EBFFE5FA6</vulas.core.space.token>
 				<vulas.core.appContext.group>${project.groupId}</vulas.core.appContext.group>
 				<vulas.core.appContext.artifact>${project.artifactId}</vulas.core.appContext.artifact>
 				<vulas.core.appContext.version>${project.version}</vulas.core.appContext.version>
